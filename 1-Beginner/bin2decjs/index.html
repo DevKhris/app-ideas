@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bin2Dec</title>
+		<link rel="stylesheet" href="app.css">
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1 class="text-center pt-3">Bin2Dec</h1>
+		</header>
+		<main id="app">
+			<div class="text-center pt-3">
+				<form action="" id="binary-form">
+					<label for="binary-number">
+						Binary Text:
+					</label>
+					<input type="number"  max=1 maxlength="8" step="1" name="binary-number" placeholder="Insert binary text" id="binary-input">
+					<label for="binary-result">
+						Result:
+					</label>
+					<input type="text" name="binary-result" placeholder="Result:" id="binary-result" readonly>
+					<button type="Submit">
+					Convert
+					</button>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
