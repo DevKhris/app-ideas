@@ -10,6 +10,7 @@ slider.addEventListener('change', function() {
 function changeValue(e) {
 	for(var i=0; i<morphs.length; i++) {
 	  morphs[i].style.borderRadius = slider.value + "%";
+	  morphs[i].style.transform = `translateX(-${slider.value + '%'})`;
 	}
 	output.value = slider.value;
 }
