@@ -17,8 +17,8 @@ required to complete them.
 
 ### Tier-1: Beginner Projects
 
-| Name                                                                              | Short Description                                          | Tier       | 
-| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| Name                                                                              | Short Description                                          | Tier       | Status |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- | -------|
 | [Bin2Dec](./Projects/1-Beginner/bin2decjs)                                        | Binary-to-Decimal number converter                         | 1-Beginner | 
 | [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner |
 | [Calculator](./Projects/1-Beginner/Calculator-App.md)                             | Calculator                                                 | 1-Beginner |
